@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
+  <title>Calculadora de Taxa de Natalidade</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="calculator">
+      <h2>Calculadora de Taxa de Natalidade</h2>
+
+      <label for="births">Número de Nascimentos:</label>
+      <input type="number" id="births" placeholder="Informe o número de nascimentos">
+
+      <label for="population">População Atual:</label>
+      <input type="number" id="population" placeholder="Informe a população atual">
+
+      <button onclick="calcularTaxaNatalidade()">Calcular</button>
+
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
